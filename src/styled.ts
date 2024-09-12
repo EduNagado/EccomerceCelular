@@ -203,12 +203,12 @@ export const Aparelhosss = styled.section`
     .Pai {
         
         flex-wrap: wrap;                        
-        gap: 20px;
+        gap: 12px;
         justify-content: center;                
         max-width: 1200px;                      
         margin: 0 auto;                        
         text-align: center;                     
-        padding: 20px;        
+        padding: 12px;        
         margin-top: 100px;  
         display: grid;
         grid-column: 2fr 2fr 2fr; 
@@ -218,7 +218,7 @@ export const Aparelhosss = styled.section`
         width: 300px;                          
         border: 1px solid #ccc;
         border-radius: 8px;
-        padding: 16px;
+        padding: 12px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
        
         flex-direction: column;
@@ -278,25 +278,38 @@ export const Aparelhosss = styled.section`
         background-color: #0056b3;              
     }
 `;
-
 export const Servicos = styled.section`
-    .servico-intro {
-    margin-bottom: 20px; /* Adiciona espaçamento entre a introdução e os cards */
-    /* Adicione outros estilos conforme necessário */
+    .servico-card{
+       
     }
-
-    .servico-card {
-        /* Estilos para o conteúdo dos cards */
+    .titulo{
+ 
     }
-
-    .titulo {
-        /* Estilos para o título dos cards */
+    .descricao{
+ 
     }
-
-    .descricao {
-        /* Estilos para a descrição dos cards */
+ 
+ 
+`
+export const PaiServico = styled.section`
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    
+    .Paih2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
-
-
+    .Paip{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+`
+export const PaiProdutos = styled.section`
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr ;
+ 
+   
 `
