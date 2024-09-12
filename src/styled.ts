@@ -279,14 +279,48 @@ export const Aparelhosss = styled.section`
     }
 `;
 export const Servicos = styled.section`
-    .servico-card{
-       
+    .servicos-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+        
     }
-    .titulo{
- 
+
+    
+    .servico-card {
+        background-color:#93c5fd; 
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease;
     }
-    .descricao{
+
+   
+    .servico-card .titulo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3c2c1e; 
+        text-align: center;
+        margin-bottom: 10px; 
+        background-color: #93c5fd;
+    }
+
+    
+    .servico-card .descricao {
+        font-size: 1rem;
+        color: #5a4628; 
+        text-align: center;
+        background-color: #93c5fd;
+    }
+
  
+    .servico-card:hover {
+        transform: scale(1.05);
     }
  
  
@@ -295,16 +329,15 @@ export const PaiServico = styled.section`
     display: grid;
     grid-template-columns: 2fr 2fr ;
     
-    .Paih2{
-        display: flex;
-        justify-content: center;
+    
+    .Paih2 {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
         align-items: center;
+        margin-bottom: 10px;
     }
-    .Paip{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
  
 `
 export const PaiProdutos = styled.section`

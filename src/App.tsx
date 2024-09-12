@@ -55,8 +55,6 @@ function App() {
             </PaiProdutos>
             <PaiServico >
               <h2 className='Paih2'>Nossas áreas de Serviço</h2>
-              <p className='Paip'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, numquam tenetur, a ducimus voluptatem fugiat modi dolorem quaerat culpa fuga quae error nulla recusandae consequuntur ab expedita! Nemo, exercitationem.</p>
- 
               {ServicosCard.map((servicos, i) => (
                 <Servico
                   key={i}
